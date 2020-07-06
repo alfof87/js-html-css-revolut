@@ -10,12 +10,13 @@
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
-
+}
+.margin{
+  margin-left: 150px;
+  margin-right: 150px;
 }
 /*Parte sinistra*/
-#left-grey{
-  margin-left: 150px;
-}
+
 header p{
   font-size: 15px;
   padding: 10px 20px;
@@ -28,4 +29,29 @@ header p{
 /*Parte destra*/
 #right-grey{
   margin-right: 150px;
+}
+/*Revolut*/
+.Revolut-top{
+  margin-top: 30px;
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+}
+h2{
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul, li{
+  color: grey;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.button{
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding: 10px 20px;
+  border-radius: 10px;
 }
