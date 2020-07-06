@@ -55,3 +55,14 @@ nav ul, li{
   padding: 10px 20px;
   border-radius: 10px;
 }
+.parent-dropdown{
+  position: relative;
+}
+.header-menu-dropdown{
+  position: absolute;
+  height: 200px;
+  z-index: 999;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+}
