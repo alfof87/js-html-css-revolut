@@ -23,7 +23,7 @@ header p{
   color: grey;
   display: inline-block;
 }
-#personale{
+#personale a{
   color: black;
 }
 /*Parte destra*/
@@ -60,10 +60,20 @@ nav ul, li{
 }
 .header-menu-dropdown{
   position: absolute;
+  width: 340px;
   height: 200px;
   z-index: 999;
-  width: 100%;
   border-radius: 10px;
   box-shadow: 5px 5px 5px;
   display: none;
+}
+a{
+  color: grey;
+  text-decoration: none;
+}
+.altro-grey{
+  color: #cccccc;
+}
+.block{
+  width: 200px;
 }
