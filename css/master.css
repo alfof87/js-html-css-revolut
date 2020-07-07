@@ -140,6 +140,7 @@ form input{
   background-color: white;
   z-index: 1000;
 }
+
 /*media*/
 @media only screen and (max-width: 1025px) {
   #top{
@@ -174,8 +175,7 @@ form input{
     margin-top: 15px;
   }
   .fa-times{
-
     margin-top: 15px;
   }
-  
+
 }
