@@ -14,6 +14,13 @@ $(document).ready(function(){
    $(".hidden-menu").hide();
  });
 ////////////////////////////////////
+$(".link-menu").click(function() {
+  $(".submenu").show();
+});
+
+$(".link-menu").click(function() {
+  $(".submenu").hide();
+});
  // var hiddenMenuShow = $(".hidden-menu").show();
  // hiddenMenuShow = true;
  //  if (hiddenMenuShow == true) {
