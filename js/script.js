@@ -6,6 +6,12 @@ $(document).ready(function(){
  $(this).children(".dropdown").toggle();
  });
 
+ $(".fa-bars").click(function() {
+   $(".hidden-menu").show();
+ });
 
- 
+ $(".fa-times").click(function() {
+   $(".hidden-menu").hide();
+ });
+
 });
