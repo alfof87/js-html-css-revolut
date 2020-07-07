@@ -119,7 +119,7 @@ form input{
 }
 .fa-bars{
   width: 50px;
-  display: none;
+
 }
 /*mediaqwery*/
 @media only screen and (max-width: 1025px) {
