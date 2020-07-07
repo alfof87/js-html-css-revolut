@@ -113,6 +113,14 @@ form input{
   width: 400px;
   display: none;
 }
+.hamburger-menu{
+  display: none;
+  width: 100%;
+}
+.fa-bars{
+  width: 50px;
+  display: none;
+}
 /*mediaqwery*/
 @media only screen and (max-width: 1025px) {
   h1{
@@ -126,12 +134,22 @@ form input{
   main{
     background-image: none;
   }
-  form, span{
+  form, button, span{
     display: none;
   }
   #img-phone{
     display: block;
     margin-left: 30%;
     margin-right: 15%;
+  }
+  .hamburger-menu{
+    display: block;
+
+  }
+  .Revolut-top{
+    display: none;
+  }
+  .fa-bars{
+    display: block;
   }
 }
