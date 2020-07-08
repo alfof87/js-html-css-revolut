@@ -18,23 +18,22 @@ $(document).ready(function(){
    $(".fa-bars").hide();
    $(".fa-times").show();
    $(".submenu").hide();
-   $(".submenu1").hide();
+
  });
  $(".fa-times").click(function() {
    $(".fa-times").hide();
    $(".fa-bars").show();
  });
  ////////////////////////////////////sottomenu
- $(".link-menu").click(function() {
-   $(".submenu").toggle();
- });
- $(".link-menu1").click(function() {
-   $(".submenu1").toggle();
- });
-
- // $(".link-menu1").click(function() {
- //   $(".submenu1").toggle();
+ // $(".link-menu").click(function() {
+ //   $(".submenu").toggle();
  // });
+
+ $(".link-menu").click(function(){
+ $(this).children(".submenu").toggle();
+});
+
+// $(this).children(".submenu");
 
 
 });
