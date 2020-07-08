@@ -150,6 +150,19 @@ form input{
 .margin-submenu{
   margin-left: 30px;
 }
+hr{
+  width: 80%;
+  height: 1px;
+  color: grey;
+}
+#line-container{
+  display: flex;
+  justify-content: center;
+}
+.chevron-container{
+  display: flex;
+  justify-content: space-between;
+}
 /*media*/
 @media only screen and (max-width: 1025px) {
   #top{

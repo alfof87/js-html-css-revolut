@@ -25,15 +25,23 @@ $(document).ready(function(){
    $(".fa-bars").show();
  });
  ////////////////////////////////////sottomenu
- // $(".link-menu").click(function() {
- //   $(".submenu").toggle();
- // });
 
- $(".link-menu").click(function(){
+ $(".parent1").click(function(){
  $(this).children(".submenu").toggle();
 });
+////////////chevron down/up////////
 
-// $(this).children(".submenu");
+$(".fa-bars").click(function() {
+  $(".fa-chevron-up").hide();
+  $(".fa-chevron-down").show();
+});
 
-
+$(".chevron-container").click(function() {
+  $(".fa-chevron-down").hide();
+  $(".fa-chevron-up").show();
+});
+$(".chevron-container").click(function() {
+  $(".fa-chevron-up").hide();
+  $(".fa-chevron-down").show();
+});
 });
