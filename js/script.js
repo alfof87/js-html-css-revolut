@@ -13,20 +13,34 @@ $(document).ready(function(){
  $(".fa-times").click(function() {
    $(".hidden-menu").hide();
  });
-////////////////////////////////////sottomenu 
-$(".link-menu").click(function() {
-  $(".submenu").show();
-});
 
-$(".link-menu").click(function() {
-  $(".submenu").hide();
-});
- // var hiddenMenuShow = $(".hidden-menu").show();
- // hiddenMenuShow = true;
- //  if (hiddenMenuShow == true) {
- //    $(".fa-bars").addClass(".active");
- //
- //  }else{
- //    console.log();
- //  }
+ $(".fa-bars").click(function() {
+   $(".fa-bars").hide();
+   $(".fa-times").show();
+   $(".submenu").hide();
+ });
+ $(".fa-times").click(function() {
+   $(".fa-times").hide();
+   $(".fa-bars").show();
+ });
+ $(".link-menu").click(function() {
+   $(".submenu").toggle();
+ });
+
+////////////////////////////////////sottomenu
+// $(".link-menu").click(function() {
+//   $(".submenu").show();
+// });
+//
+// $(".link-menu").click(function() {
+//   $(".submenu").hide();
+// });
+//  // var hiddenMenuShow = $(".hidden-menu").show();
+//  // hiddenMenuShow = true;
+//  //  if (hiddenMenuShow == true) {
+//  //    $(".fa-bars").addClass(".active");
+//  //
+//  //  }else{
+//  //    console.log();
+//  //  }
 });
