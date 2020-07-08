@@ -143,11 +143,11 @@ form input{
   background-color: white;
   z-index: 1000;
 }
-.link-menu{
+.margin-link-menu{
   color: black;
   margin-left: 50px;
 }
-.submenu{
+.margin-submenu{
   margin-left: 30px;
 }
 /*media*/

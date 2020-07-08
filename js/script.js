@@ -17,17 +17,20 @@ $(document).ready(function(){
  $(".fa-bars").click(function() {
    $(".fa-bars").hide();
    $(".fa-times").show();
-   $(".submenu").hide();
+   $(".submenu").hide(); 
  });
  $(".fa-times").click(function() {
    $(".fa-times").hide();
    $(".fa-bars").show();
  });
+ ////////////////////////////////////sottomenu
  $(".link-menu").click(function() {
    $(".submenu").toggle();
  });
+ $(".link-menu1").click(function() {
+   $(".submenu1").toggle();
+ });
 
-////////////////////////////////////sottomenu
 // $(".link-menu").click(function() {
 //   $(".submenu").show();
 // });
