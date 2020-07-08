@@ -17,8 +17,8 @@ $(document).ready(function(){
  $(".fa-bars").click(function() {
    $(".fa-bars").hide();
    $(".fa-times").show();
-   $(this).children(".submenu").hide();
-
+   $(".submenu").hide();
+   $(".submenu1").hide();
  });
  $(".fa-times").click(function() {
    $(".fa-times").hide();
@@ -28,6 +28,10 @@ $(document).ready(function(){
  $(".link-menu").click(function() {
    $(".submenu").toggle();
  });
+ $(".link-menu1").click(function() {
+   $(".submenu1").toggle();
+ });
+
  // $(".link-menu1").click(function() {
  //   $(".submenu1").toggle();
  // });
