@@ -17,7 +17,8 @@ $(document).ready(function(){
  $(".fa-bars").click(function() {
    $(".fa-bars").hide();
    $(".fa-times").show();
-   $(".submenu").hide(); 
+   $(this).children(".submenu").hide();
+
  });
  $(".fa-times").click(function() {
    $(".fa-times").hide();
@@ -27,23 +28,9 @@ $(document).ready(function(){
  $(".link-menu").click(function() {
    $(".submenu").toggle();
  });
- $(".link-menu1").click(function() {
-   $(".submenu1").toggle();
- });
+ // $(".link-menu1").click(function() {
+ //   $(".submenu1").toggle();
+ // });
 
-// $(".link-menu").click(function() {
-//   $(".submenu").show();
-// });
-//
-// $(".link-menu").click(function() {
-//   $(".submenu").hide();
-// });
-//  // var hiddenMenuShow = $(".hidden-menu").show();
-//  // hiddenMenuShow = true;
-//  //  if (hiddenMenuShow == true) {
-//  //    $(".fa-bars").addClass(".active");
-//  //
-//  //  }else{
-//  //    console.log();
-//  //  }
+
 });
