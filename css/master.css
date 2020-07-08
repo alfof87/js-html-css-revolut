@@ -15,6 +15,7 @@
   margin-left: 150px;
   margin-right: 150px;
 }
+
 /*Parte sinistra*/
 
 header p{
@@ -33,6 +34,7 @@ header p{
 /*Revolut*/
 .Revolut-top{
   margin-top: 30px;
+
 }
 .flex-between{
   display: flex;
@@ -117,6 +119,7 @@ form input{
   width: 100%;
   display: flex;
   align-items: flex-start;
+  display: none;
 }
 .fa-bars{
   width: 50px;

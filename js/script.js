@@ -5,7 +5,7 @@ $(document).ready(function(){
  $(".parent-dropdown").mouseout(function(){
  $(this).children(".dropdown").toggle();
  });
-/////////////////////////////////////
+/////////////////////////////////////hamburger/X
  $(".fa-bars").click(function() {
    $(".hidden-menu").show();
  });
@@ -13,7 +13,7 @@ $(document).ready(function(){
  $(".fa-times").click(function() {
    $(".hidden-menu").hide();
  });
-////////////////////////////////////
+////////////////////////////////////sottomenu 
 $(".link-menu").click(function() {
   $(".submenu").show();
 });
